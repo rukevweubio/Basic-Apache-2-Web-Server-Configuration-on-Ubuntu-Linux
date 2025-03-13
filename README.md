@@ -25,6 +25,7 @@ sudo apt update && sudo apt upgrade -y
   sudo systemctl enable apache2
   sudo systemctl status apache2
   ```
+  ![Apache2 Running ](https://raw.githubusercontent.com/rukevweubio/Basic-Apache-2-Web-Server-Configuration-on-Ubuntu-Linux/main/Screenshot%20(475).png)
   ## Create Website Directories
   ```
  sudo mkdir -p /var/www/site1.com/public_html
@@ -39,3 +40,5 @@ sudo chmod -R 755 /var/www/site1.com /var/www/site2.com
 ``` sudo apt install logwatch -y
   sudo logwatch --service apache --range Today --detail Med --format text
   ```
+## test website
+
