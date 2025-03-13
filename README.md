@@ -41,4 +41,5 @@ sudo chmod -R 755 /var/www/site1.com /var/www/site2.com
   sudo logwatch --service apache --range Today --detail Med --format text
   ```
 ## test website
+![ the websiste hosted by the apache2 ](https://github.com/rukevweubio/Basic-Apache-2-Web-Server-Configuration-on-Ubuntu-Linux/blob/main/Screenshot%20(450).png)
 
