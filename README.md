@@ -36,6 +36,6 @@ sudo chmod -R 755 /var/www/site1.com /var/www/site2.com
 ``` nano /var/www/site1.com/public_html/index.html
 ```
 ## Management
-`` sudo apt install logwatch -y
+``` sudo apt install logwatch -y
   sudo logwatch --service apache --range Today --detail Med --format text
   ```
