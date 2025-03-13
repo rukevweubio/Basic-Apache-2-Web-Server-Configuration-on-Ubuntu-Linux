@@ -25,3 +25,17 @@ sudo apt update && sudo apt upgrade -y
   sudo systemctl enable apache2
   sudo systemctl status apache2
   ```
+  ## Create Website Directories
+  ```
+ sudo mkdir -p /var/www/site1.com/public_html
+sudo mkdir -p /var/www/site2.com/public_html
+sudo chown -R $USER:$USER /var/www/site1.com/public_html /var/www/site2.com/public_html
+sudo chmod -R 755 /var/www/site1.com /var/www/site2.com
+```
+## Add Sample Content:
+``` nano /var/www/site1.com/public_html/index.html
+```
+## Management
+`` sudo apt install logwatch -y
+  sudo logwatch --service apache --range Today --detail Med --format text
+  ```
